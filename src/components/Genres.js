@@ -38,6 +38,7 @@ export default function Genres({
     return () => {
       setGenres([]);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

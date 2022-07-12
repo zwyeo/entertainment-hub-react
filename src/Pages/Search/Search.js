@@ -35,6 +35,7 @@ export default function Search() {
   useEffect(() => {
     window.scroll(0, 0);
     fetchSearch();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [type, page]);
 
   return (
