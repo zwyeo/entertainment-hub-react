@@ -1,7 +1,7 @@
 import { Badge } from "@mui/material";
 import React from "react";
 import { img_300, unavailable } from "../../config/config";
-import ContentModal from "../ContentModal/ContentModal";
+
 import "./SingleContent.css";
 
 export default function SingleContent({
